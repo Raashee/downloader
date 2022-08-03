@@ -1,5 +1,6 @@
 body {
     place-items: center;
+    text-align: center;
     font-size: 15pt;
     background: linear-gradient(90deg, #6441a5 0%, #2a0845 100%);
 }
