@@ -74,11 +74,13 @@ button.unit .icon {
 button.red {
   display: block;
   width: 80%;
+  align-items: center;
   color: #AE1100;
 }
 button.blue {
   display: block;
   width: 80%;
+  align-items: center;
   color: #C13584;
 }
 
