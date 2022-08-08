@@ -108,14 +108,14 @@ body {
 a {
   position: absolute;
   top: 300%;
-  left: 50%;
+  left: 15%;
   color: white;
   font-size: 20px;
   background: #303245;
   text-decoration: none;
   display: inline-block;
   padding: 10px 25px;
-  border-radius: .3rem;
+  border-radius: .2rem;
   font-weight: 700;
   letter-spacing: .5px;
   
