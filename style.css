@@ -71,13 +71,19 @@ button.unit {
 button.unit .icon {
   margin-right: 0;
 }
+button.blue {
+  display: block;
+  width: 80%;
+  margin: auto;
+  color: #4267B2;
+}
 button.red {
   display: block;
   width: 80%;
   margin: auto;
   color: #AE1100;
 }
-button.blue {
+button.violet {
   display: block;
   width: 80%;
   margin: auto;
