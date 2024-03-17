@@ -18,28 +18,10 @@ let getJSON = (url, callback) => {
     xhr.send();
 };
 $(document).on('click','.send_form', function(){
-
-  var Url = "https://api-xcoders.xyz/api/download/ytmp4?url=",
-      Aurl = "https://api-xcoders.xyz/api/download/ytmp3?url=",
-      key = "&apikey=v7Al5I5obp"
-  yt = $("#ytl").val(),
-  form = $('#format').val();
-  
-  if (form != "mp4") {
-      getJSON(Aurl + yt + key, (err, data) => {
-        let text = `${data.result.url}`
-        window.open(text, '_blank');
-        console.log(text);
+  var yt = $("#ytl").val();
+  var url = yt.value.replace("https://youtu.be/", "https://www.000tube.com/watch?v=");
+ 
+        window.open(url, '_blank');
+        console.log(url);
         
-});
-    }
-    else {
-      getJSON(Url + yt + key, (err, data) => {
-let text = `${data.result.url}`
-window.open(text, '_blank');
-        console.log(text);
-        
-});
-}
-    
 });
